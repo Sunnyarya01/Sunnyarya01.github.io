@@ -4,210 +4,441 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="./skins/color-1.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Main Container Start -->
-    <div class="main-container">
-        <!-- Aside Start -->
-        <div class="aside">
-            <div class="logo">
-                <a href="./index.html"><span>S</span>unni</a>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
+                </div>
             </div>
-            <div class="nav-toggler">
-                <span></span>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, <br> 
+                    My name is <span>Sunni Kumar.</span><br>
+                    I 'm a Java Backend Developer
+                </h1>
+                <p>
+                    I'm a Java backend Developer and Web Developer, I love to create beautiful and functional websites. I have worked on so much projects like clone project of Sugar cosmetics, 
+                    hellobonsai and flipkart  etc. Sugar Cosmetics was my first project.
+                </p>
+                <div class="btn-con">
+                    <a href="https://drive.google.com/file/d/13U750McEw_UzPtBhcBukQFHbrct9H85q/view?usp=sharing" class="main-btn">
+                        <span class="btn-text">Resume</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
             </div>
-            <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Skills</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Projects</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contacts</a></li>
-            </ul>
         </div>
-        <!-- Aside End -->
-        <!-- Main Content Start -->
-        <div class="main-content">
-            <!-- Home Section Start -->
-            <section class="home section">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">Hello, My name is <span class="name">Sunni Kumar</span></h3>
-                            <h3 class="my-profession">I' m a <span class="typing">Java Backend Developer</span></h3>
-                            <p>I' m a Lorem ipsum dolor sit amet consectetur adipisicing elit. earum maxime, quae autem.</p>
-                            <a href="#contact" class="btn hire-me">Hire me</a>
-                        </div>
-                        <div class="home-img padd-15">
-                            <img src="./images/hero.png" alt="">
-                        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4> About me</h4>
+                    <p>
+                        Hi, My name is Sunny Kumar. <br>
+                        Aspiring Java Backend Developer with a specialization in java, spring boot, SQL, git/GitHub, AWS, HTML, CSS, javascript,
+                        object-oriented, and design. Self-motivated and curious to learn, and Kean is interested in building user-centric
+                        products, Looking forward to honing my skills in a challenging work environment.
+                    </p>
+                    <div class="btn-con">
+                        <a href="https://drive.google.com/file/d/13U750McEw_UzPtBhcBukQFHbrct9H85q/view?usp=sharing" class="main-btn">
+                            <span class="btn-text">Resume</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
                     </div>
                 </div>
-            </section>
-            <!-- Home Section End -->
-            <!-- About Section Start -->
-            <section class="about section">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Me</h2>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2</p>
+                            <p class="small-text">Clone Projects <br /> Completed</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Sunni Kumar and <span>Web Developer</span></h3>
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque dicta doloremque perferendis temporibus suscipit, tempore harum aliquam ipsum commodi minus maxime, qui fugiat minima porro amet voluptate, animi vel. Voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cum, aspernatur, vero magnam dignissimos molestias obcaecati corporis ipsam placeat eum libero eaque quam quo provident, voluptatem maiores itaque nam vitae.
-                                    </p>
-                                </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">7+</p>
+                            <p class="small-text">Months of <br /> Deliberate Practice</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">12+</p>
+                            <p class="small-text">Hours of <br /> Continuously Learned about Web Development</p>
+                        </div>
+                    </div>
+                    <!-- <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">400+</p>
+                            <p class="small-text">Public <br /> reviews</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
                             </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-items padd-15">
-                                            <p>Birthday : <span> 29 Des 2003</span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Age : <span> 19 </span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Website : <span> https://sunnyarya01.github.io </span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Email : <span> kumarunn@gamkjs.com</span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Degree : <span> BS</span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Phone : <span> 20 dsf48564Des 2003</span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>City : <span> 20 Des 2003</span></p>
-                                        </div>
-                                        <div class="info-items padd-15">
-                                            <p>Freelance : <span> Available</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="button">
-                                            <a href="#" class="btn">Download</a>
-                                            <a href="#" class="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-items padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-items padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-items padd-15">
-                                            <h5>JavaScript</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-items padd-15">
-                                            <h5>Java</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-items padd-15">
-                                            <h5>SQL</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-items padd-15">
-                                            <h5>Python</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
                             </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15"></div>
-                                            <div class="timeline shadow-dark">
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>April-2022 - Present
-                                                    </h3>
-                                                    <h4 class="timeline-title">
-                                                        Full Stack Web Development
-                                                    </h4>
-                                                    <h4 class="timeline-clg">
-                                                        Masai School, Bengaluru | Remote
-                                                    </h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit incidunt corporis perferendis similique nesciunt odio, illo fugiat atque at neque tenetur commodi nihil enim cumque cupiditate, earum dicta distinctio debitis sint vel repellat itaque. Reprehenderit alias est iste quas dignissimos obcaecati cumque ut ipsa repudiandae!</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>May-2022 - Present
-                                                    </h3>
-                                                    <h4 class="timeline-title">
-                                                        Bachelor of Science in Data Science and Application
-                                                    </h4>
-                                                    <h4 class="timeline-clg">
-                                                        Indian Institute of Technology, Madras
-                                                    </h4>
-                                                    <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit incidunt corporis perferendis similique nesciunt odio, illo fugiat atque at neque tenetur commodi nihil enim cumque cupiditate, earum dicta distinctio debitis sint vel repellat itaque. Reprehenderit alias est iste quas dignissimos obcaecati cumque ut ipsa repudiandae!</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- About Section End -->
-            <!-- Skill Section Start -->
-            <section class="service section">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Skills</h2>
+            </div>
+            <h4 class="stat-title">Education</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">April 2022 - present</p>
+                    <h5>Full Stack Web Development<span> - Masai School</span></h5>
+                    <p>
+                        I am learning Full Stack Web Development at Masai School in Full-Time Course which follows the 9-9-6 Curriculam.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">May 2022 - present</p>
+                    <h5>BS in Data Science and Application<span> - Indian Institute of Technology, Madras</span></h5>
+                    <p>
+                        I am pursuing BS in Data Science and Application as my Graduation from IIT Madrs.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">July 2019 - July 2021</p>
+                    <h5>Higher Secondary School, 12th<span> - BRD Krishak Intermediate College</span></h5>
+                    <p>
+                        I have Completed my 12th from BRD Krishak Intermediate College which belongs to UP Board.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">April 2019 - April 2020/p>
+                    <h5>Advanced Diploma in Computer Application<span> - Uma Computer and Technology</span></h5>
+                    <p>
+                        I have learn about basics of Computer in first 1 year.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Projects</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Skill Section End -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            You can Contact me Here, Here is my Some Contact Details.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    :Deora, Uttar Pradesh, India
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: kumarsunnysjk123@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Indian Institute of Technology, Madras</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +916394540805</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Hindi, English, Bhojpuri</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="www.facebook.com" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
         </div>
-        <!-- Main Content end -->
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <!-- <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div> -->
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
     </div>
-    <!-- Main Container End -->
-    <!-- Js Files -->
-    <script src="./scripts.js"></script>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

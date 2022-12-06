@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: teal;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    background-color: wheat;
+    border: 1px solid black;
+}
+
+.logo{
+    /* background-color: yellow; */
+    font-family: 'Nerko One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    width: 20vw;
+}
+
+nav{
+    width: 80vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    margin-left: 10vw;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    margin: 0 5vw 0 15vw;
+}
+
+#download{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10vw;
+}
+
+#home{
+    padding-top: 80px;
+}
+
+.home{
+    /* border: 1px solid black; */
+    display: flex;
+    /* display: none; */
+}
+.home .photo{
+    /* border: 1px solid black; */
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5vw;
+}
+.home .photo img{
+    width: 20vw;
+    border-radius: 4vw;
+    border: 2px solid blue ;
+}
+.home .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5vw;
+    /* border: 1px solid black; */
+    width: 70vw;
+    font-size: 2vw;
+    color: aquamarine;
+}
+.home .intro #hi{
+    color: fuchsia;
+    font-size: 3vw;
+}
+
+.home .intro #name{
+    color: fuchsia;
+    font-size: 5vw;
+}
+
+.home .intro #name span{
+    color: black;
+    font-size: 5vw;
+}
+
+
+#about{
+    padding-top: 80px;
+}
+
+.about{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.about h2{
+    font-size: 4vw;
+}
+
+.about .aboutme{
+    display: flex;
+    padding: 2vw;
+}
+
+.about .aboutme .profile{
+    padding: 0 0 0 15vw;
+    text-align: left;
+    margin: 2vw;
+    font-size: 1.5vw;
+    /* border: 1px solid black; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.about .aboutme .profile p{
+    /* border: 1px solid red; */
+    width: 23vw;
+}
+.about .aboutme .stat{
+    width: 50vw;
+    text-align: left;
+}
+
+.about .aboutme .stat h3{
+    text-align: left;
+    font-size: 2vw;
+}
+
+.about .aboutme .stat .main{
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 16vw);
+    row-gap: 2vw;
+    column-gap: 2vw;
+}
+
+.about .aboutme .stat .s{
+    border: 1px solid black;
+    padding: 2vw;
+}
+
+.about .aboutme .stat .s .figure{
+    margin: 1.5vw;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.about .aboutme .stat .s .discription{
+    margin-left: 4.5vw;
+    font-size: 2vw;
+}
+
+.about .tech_skills {
+    /* border: 1px solid red; */
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about .tech_skills h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about .tech_skills .main{
+    /* border: 1px solid red; */
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 2vw;
+    column-gap: 2vw;
+    margin: 0 18vw;
+    text-align: left;
+}
+
+.about .tech_skills .main .t{
+    display: grid;
+    column-gap: 1vw;
+}
+
+.about .tech_skills .main .t div{
+    margin-top: 1vw;
+    border: 1px solid black;
+    height: 1vw;
+    width: 100%;
+    border-radius: 10vw;
+}
+
+.about .soft_skills {
+    /* border: 1px solid red; */
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about .soft_skills h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about .soft_skills .main{
+    /* border: 1px solid red; */
+    padding-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 2vw;
+    column-gap: 2vw;
+    margin: 0 18vw;
+    text-align: left;
+}
+
+.about .soft_skills .main .t{
+    display: grid;
+    column-gap: 1vw;
+}
+
+.about .soft_skills .main .t div{
+    margin-top: 1vw;
+    border: 1px solid black;
+    height: 1vw;
+    width: 100%;
+    border-radius: 10vw;
+}
+
+/* .about .education {
+    border: 1px solid red;
+} */
+
+.about .education h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about .education .main{
+    padding: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .education .main>div{
+    border: 1px solid black;
+    width: 25vw;
+    text-align: left;
+    padding: 1vw;
+}
+
+.about .education .main .degree{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+.about .education .main .college{
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+#projects{
+    padding-top: 80px;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.projects .main{
+    padding-top: 4vw;
+    padding-bottom: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects .main .card{
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+
+.projects .main .card img{
+    width: 20vw;
+    border-radius: 1vw 1vw 0 0;
+}
+
+.projects .main .card .bottom{
+    display: flex;
+    justify-content: space-evenly;
+}

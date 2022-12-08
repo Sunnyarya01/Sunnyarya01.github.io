@@ -144,6 +144,7 @@
     }
 
     .home .photo {
+        /* margin-top: 100px; */
         width: 50vw;
         margin: auto;
     }
@@ -152,6 +153,209 @@
         width: 50vw;
         border: 1px solid blue;
         border-radius: 10vw;
+    }
+
+    .home .intro{
+        /* border: 1px solid red; */
+        padding: 4vw;
+    }
+
+    .home .intro #hi{
+        font-size: 4.5vw;
+        font-weight: bolder;
+    }
+
+    .home .intro #name{
+        font-size: 6.5vw;
+        font-weight: bolder;
+    }
+
+    .home .intro #name span{
+        color: blue;
+    }
+
+    .home .intro p{
+        font-size: 4vw;
+    }
+
+    #download {
+        font-weight: bold;
+        font-size: large;
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10vw;
+    }
+
+    #about {
+        padding-top: 80px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 8vw;
+    }
+
+    .about .aboutme {
+        padding: 1.5vw;
+    }
+
+    .about .aboutme .profile {
+        margin: auto;
+        text-align: justify;
+        font-size: 3.5vw;
+        /* border: 1px solid black; */
+        /* align-items: center; */
+    }
+
+    .about .aboutme .profile p {
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 75vw;
+    }
+
+    .about .aboutme .stat {
+        text-align: left;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+
+    .about .aboutme .stat h3 {
+        text-align: center;
+        font-size: 5vw;
+        margin: auto;
+        /* border: 1px solid black; */
+    }
+
+    .about .aboutme .stat .main {
+        margin-top: 10vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .about .aboutme .stat .s {
+        width: 20vw;
+        border: 1px solid black;
+        padding: 3;
+    }
+
+    .about .aboutme .stat .s .figure {
+        margin: 1.5vw;
+        font-weight: bolder;
+        font-size: 2vw;
+    }
+
+    .about .aboutme .stat .s .discription {
+        margin-left: 4.5vw;
+        font-size: 2vw;
+        margin-bottom: 15px;
+    }
+
+    .about .tech_skills {
+        /* border: 1px solid red; */
+        padding: 2vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .about .tech_skills h3 {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .about .tech_skills .main {
+        /* border: 1px solid red; */
+        padding-top: 3vw;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin: 0 18vw;
+        text-align: left;
+    }
+
+    .about .tech_skills .main .t {
+        display: grid;
+        column-gap: 1vw;
+    }
+
+    .about .tech_skills .main .t div {
+        margin-top: 1vw;
+        border: 1px solid black;
+        height: 1vw;
+        width: 100%;
+        border-radius: 10vw;
+    }
+
+    .about .soft_skills {
+        /* border: 1px solid red; */
+        padding: 2vw;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .about .soft_skills h3 {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .about .soft_skills .main {
+        /* border: 1px solid red; */
+        padding-top: 3vw;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin: 0 18vw;
+        text-align: left;
+    }
+
+    .about .soft_skills .main .t {
+        display: grid;
+        column-gap: 1vw;
+    }
+
+    .about .soft_skills .main .t div {
+        margin-top: 1vw;
+        border: 1px solid black;
+        height: 1vw;
+        width: 100%;
+        border-radius: 10vw;
+    }
+
+    /* .about .education {
+        border: 1px solid red;
+    } */
+
+    .about .education h3 {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .about .education .main {
+        padding: 2vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about .education .main>div {
+        border: 1px solid black;
+        width: 25vw;
+        text-align: left;
+        padding: 1vw;
+    }
+
+    .about .education .main .degree {
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    .about .education .main .college {
+        font-size: 1vw;
+        font-weight: bolder;
     }
 
 }

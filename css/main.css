@@ -246,7 +246,8 @@
   }
 
   #github{
-    background-color: #0fd7d0;
+    /* background-color: #0fd7d0; */
+    background-color: #333;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -353,7 +354,8 @@ width: 100%;
 #statics h5{
     font-size: 18px;
     font-weight: bold !important;
-    color: #0fb6d7;
+    /* color: #0fb6d7; */
+    color: #333;
 }
 
 .row p{
@@ -400,10 +402,15 @@ border-radius: 10vw;
     text-align: center;
     font-size: 38px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
-
+#headings{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
 
 
 .aboutme {
@@ -426,7 +433,8 @@ border-radius: 10vw;
 
 section>.container{
 
-    background-color: #0fd7d0;
+    background-color: #333;
+    /* background-color: #0fd7d0; */
     border-radius: 50px;
     color: white;
 }

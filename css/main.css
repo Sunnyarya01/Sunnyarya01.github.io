@@ -250,7 +250,13 @@
     background-color: #333;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: white;
   }
+
+.contrib-number{
+    /* background-color: rd; */
+    color: white;
+}
   
 @media (max-width: 420px){
 #github img , .calendar {

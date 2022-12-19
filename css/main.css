@@ -483,3 +483,11 @@ section .object-cover{
 strong{
     color: white;
 }
+
+#gitCal{
+    background-color: #333;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
